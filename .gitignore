@@ -1,0 +1,11 @@
+# Build and editor files
+__pycache__/
+.venv/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+
+# Never commit licensed data (Compustat, CRSP, Databento) or row-level derivatives
+data/
+*.parquet
+*.csv
